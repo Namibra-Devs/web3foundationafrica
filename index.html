@@ -7,41 +7,44 @@
     <script src="./main.js" defer></script>
     <title>Home | Web3 Foundation Africa</title>
   </head>
-  <body>
+  <body class="">
+
+
+    <!-- Navbar begins -->
     <div class="sticky top-0 z-50 py-5 shadow-md bg-white w-full font-inter">
   <nav class="flex items-center mx-auto w-11/12 justify-between align-middle">
       <div class="logo w-6/12">
-        <a href="index.html" class="text-secondary font-bold text-2xl md:text-3xl font-merriweather">
+        <a href="index.html" class="text-primary font-bold text-2xl md:text-3xl font-merriweather">
           Web3
         </a>
       </div>
       <div class="absolute mx-auto flex justify-center  top-16 left-0 w-full bg-white pt-0 pb-4 shadow-md lg:relative lg:top-0 lg:border-none lg:shadow-none lg:pb-0">
       
       <ul class="hidden menu lg:flex justify-end flex-col lg:flex-row text-sm z-40 gap-0 w-full ml-2 lg:ml-0">
-          <li class="lg:ml-1 cursor-pointer text-secondary hover:bg-secondary hover:text-white font-semibold text-gray hover:bg-gray-light rounded ">
+          <li class="lg:ml-1 cursor-pointer text-secondary hover:bg-secondary hover:text-white rounded-sm ">
             <a href="index.html" class="px-4 py-2 block lg:inline-block">Home</a>
           </li>
-          <li class="lg:ml-1 cursor-pointer text-secondary hover:bg-secondary hover:text-white font-semibold text-gray hover:bg-gray-light rounded ">
+          <li class="lg:ml-1 cursor-pointer text-secondary hover:bg-secondary hover:text-white rounded-sm ">
             <a href="services.html" class="px-4 py-2 block lg:inline-block">Services</a>
           </li>
-          <li class="lg:ml-1 cursor-pointer text-secondary hover:bg-secondary hover:text-white font-semibold text-gray hover:bg-gray-light rounded ">
+          <li class="lg:ml-1 cursor-pointer text-secondary hover:bg-secondary hover:text-white rounded-sm ">
             <a href="about.html" class="px-4 py-2 block lg:inline-block">Gallery</a>
           </li>
 
-          <li class="lg:ml-1 cursor-pointer text-secondary hover:bg-secondary hover:text-white font-semibold text-gray hover:bg-gray-light rounded">
+          <li class="lg:ml-1 cursor-pointer text-secondary hover:bg-secondary hover:text-white rounded-sm">
             <a href="contact.html" class="px-4 py-2 block lg:inline-block">Programmes</a>
           </li>
-          <li class="lg:ml-1 lg:mr-0 cursor-pointer text-secondary hover:bg-secondary hover:text-white font-semibold text-gray hover:bg-gray-light rounded">
+          <li class="lg:ml-1 lg:mr-0 cursor-pointer text-secondary hover:bg-secondary hover:text-white rounded-sm">
             <a href="contact.html" class="px-4 py-2 block lg:inline-block">Gallery</a>
           </li>
-          <li class="lg:ml-1 lg:mr-0 cursor-pointer text-secondary hover:bg-secondary hover:text-white font-semibold text-gray hover:bg-gray-light rounded">
+          <li class="lg:ml-1 lg:mr-0 cursor-pointer text-secondary hover:bg-secondary hover:text-white rounded-sm">
             <a href="contact.html" class="px-4 py-2 block lg:inline-block">About Us</a>
           </li>
         </ul>
       </div>
       <div class="z-40 relative">
         <button title="toggle-menu" type="button"
-          class="text-light bars outline-none border-none cursor-pointer lg:hidden bg-secondary flex items-center px-2 py-1 z-50 rounded-sm">   
+          class="text-light bars outline-none border-none cursor-pointer lg:hidden bg-secondary flex items-center px-2 py-1 z-50 rounded-sm-sm">   
           <svg class="fill-current w-5 h-5" aria-hidden="true" fill="none" stroke="white" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>toggle Menu</title>
             <path class="open" d="M3.75 9h16.5m-16.5 6.75h16.5" stroke-linecap="round" stroke-linejoin="round"></path>
             <path class="hidden close" d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -50,5 +53,28 @@
       </div>
     </nav>
   </div>
+  <!-- Navbar ends -->
+
+  <!-- Main page -->
+   <main>
+
+    <!-- Hero section -->
+     <section class="hero-section">
+       <div class="container mx-auto lg:flex items-start justify-between lg:h-screen h-full lg:w-full w-11/12">
+         <div class="lg:pl-10 pt-10 lg:mt-16 h-full">
+           <h1 class="md:text-5xl text-4xl lg:w-9/12 w-11/12 font-bold text-primary font-merriweather mb-3">Connecting People With Blockchain</h1>
+           <p class="lg:text-lg text-lg font-mono text-secondary lg:mb-3 pb-6 lg:mr-3 lg:w-8/12 w-full">We are a community of like-minded individuals who are committed to fostering a better future for all through blockchain technology.</p>
+           <a href="about.html" class="px-8 py-3 text-white bg-secondary hover:bg-primary transition duration-300 rounded-sm">Discover More</a>
+         </div>
+         <div class="hero-image w-full lg:block hidden">
+           <img src="./public/images/hero.jpg" alt="Hero image" class="object-cover w-full h-screen" />
+         </div>
+       </div>
+     </section>
+
+     <!-- Hero section end -->
+
+   </main>
+
   </body>
 </html>
