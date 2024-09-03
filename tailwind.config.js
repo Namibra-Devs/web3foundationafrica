@@ -7,11 +7,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#3490dc',
-        secondary: '#f1c40f',
+        primary: '#03045e',
+        secondary: '#023e8a',
+        other: '#0077b6',
+        plight: '#00b4d8',
+        plighter: '#48cae4',
+        danger: '#DC063F',
       },
       fontFamily: {
-        // sans: 'sans-serif',
+        inter: 'Inter, sans-serif',
+        merriweather: 'Merriweather, serif',
+        mono: 'Menlo, monospace',
+        sans: 'sans-serif',
       },
     },
   },

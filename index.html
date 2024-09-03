@@ -4,9 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/output.css">
-    <title>Web3 Foundation Africa</title>
+    <script src="./main.js" defer></script>
+    <title>Home | Web3 Foundation Africa</title>
   </head>
   <body>
-    <h1 class="red-500">Hello World!</h1>
+    <div class="sticky top-0 z-50 py-5 shadow-md bg-white w-full font-inter">
+  <nav class="flex items-center mx-auto w-11/12 justify-between align-middle">
+      <div class="logo w-6/12">
+        <a href="index.html" class="text-secondary font-bold text-2xl md:text-3xl font-merriweather">
+          Web3
+        </a>
+      </div>
+      <div class="absolute mx-auto flex justify-center  top-16 left-0 w-full bg-white pt-0 pb-4 shadow-md lg:relative lg:top-0 lg:border-none lg:shadow-none lg:pb-0">
+      
+      <ul class="hidden menu lg:flex justify-end flex-col lg:flex-row text-sm z-40 gap-0 w-full ml-2 lg:ml-0">
+          <li class="lg:ml-1 cursor-pointer text-secondary hover:bg-secondary hover:text-white font-semibold text-gray hover:bg-gray-light rounded ">
+            <a href="index.html" class="px-4 py-2 block lg:inline-block">Home</a>
+          </li>
+          <li class="lg:ml-1 cursor-pointer text-secondary hover:bg-secondary hover:text-white font-semibold text-gray hover:bg-gray-light rounded ">
+            <a href="services.html" class="px-4 py-2 block lg:inline-block">Services</a>
+          </li>
+          <li class="lg:ml-1 cursor-pointer text-secondary hover:bg-secondary hover:text-white font-semibold text-gray hover:bg-gray-light rounded ">
+            <a href="about.html" class="px-4 py-2 block lg:inline-block">Gallery</a>
+          </li>
+
+          <li class="lg:ml-1 cursor-pointer text-secondary hover:bg-secondary hover:text-white font-semibold text-gray hover:bg-gray-light rounded">
+            <a href="contact.html" class="px-4 py-2 block lg:inline-block">Programmes</a>
+          </li>
+          <li class="lg:ml-1 lg:mr-0 cursor-pointer text-secondary hover:bg-secondary hover:text-white font-semibold text-gray hover:bg-gray-light rounded">
+            <a href="contact.html" class="px-4 py-2 block lg:inline-block">Gallery</a>
+          </li>
+          <li class="lg:ml-1 lg:mr-0 cursor-pointer text-secondary hover:bg-secondary hover:text-white font-semibold text-gray hover:bg-gray-light rounded">
+            <a href="contact.html" class="px-4 py-2 block lg:inline-block">About Us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="z-40 relative">
+        <button title="toggle-menu" type="button"
+          class="text-light bars outline-none border-none cursor-pointer lg:hidden bg-secondary flex items-center px-2 py-1 z-50 rounded-sm">   
+          <svg class="fill-current w-5 h-5" aria-hidden="true" fill="none" stroke="white" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>toggle Menu</title>
+            <path class="open" d="M3.75 9h16.5m-16.5 6.75h16.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path class="hidden close" d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+        </button>
+      </div>
+    </nav>
+  </div>
   </body>
 </html>
