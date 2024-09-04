@@ -17,9 +17,13 @@ export default {
       fontFamily: {
         inter: 'Inter, sans-serif',
         merriweather: 'Merriweather, serif',
+        changa: 'Changa,sans-serif',
         mono: 'Menlo, monospace',
         sans: 'sans-serif',
       },
+      backgroundImage: {
+        meetingImg: "url('/public/images/ug1.jpg')",
+      }
     },
   },
   plugins: [],
