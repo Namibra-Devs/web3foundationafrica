@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    './index.html',
+    './*.html',
     './src/**/*.{html,js,}',
   ],
   theme: {
@@ -17,6 +17,8 @@ export default {
       fontFamily: {
         inter: 'Inter, sans-serif',
         merriweather: 'Merriweather, serif',
+        'space-grotesk': 'Space Grotesk, sans-serif',
+        pixelify: 'Pixelify Sans, sans-serif',
         changa: 'Changa,sans-serif',
         mono: 'Menlo, monospace',
         sans: 'sans-serif',
