@@ -1,4 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
+
   const menu = document.querySelector(".menu");
   const bars = document.querySelector(".bars");
   const open = document.querySelector(".open");
@@ -54,34 +55,6 @@ window.addEventListener("DOMContentLoaded", () => {
   //   Get current year for footer
   const year = document.getElementById("year");
   year.textContent = new Date().getFullYear();
-  // const accordions = document.querySelectorAll('.accordion');
 
-  // accordions.forEach(accordion => {
-  //   accordion.addEventListener("click", () => {
-  //     const toggler = accordion.querySelector(".toggle");
-  //     const line = accordion.querySelector(".line");
-
-  //     toggler.classList.toggle("hidden");
-  //     line.classList.toggle("hidden");
-  //   });
-  // });
-
-  // Scroll to top button
-  // const scrollToTopBtn = document.querySelector('.scroll-to-top-btn');
-
-  // window.addEventListener('scroll', () => {
-  //     if (window.pageYOffset > 100) {
-  //         scrollToTopBtn.classList.add('show-scroll-btn');
-  //     } else {
-  //         scrollToTopBtn.classList.remove('show-scroll-btn');
-  //     }
-  // });
-
-  // scrollToTopBtn.addEventListener('click', () => {
-  //     window.scrollTo({
-  //         top: 0,
-  //         behavior: 'smooth'
-  // });
-  // });
 
 });
