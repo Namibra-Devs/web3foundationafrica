@@ -7,11 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#0b7793',
-        secondary: '#2090a9',
-        plight: '#00b4d8',
-        plighter: '#48cae4',
-        danger: '#de1635',
+        primary: '#EDB11F',
+        secondary: '#FF0051',
+        other: '#250F98',
+        'other-light': ' #b0a2f6',
+        plight: '#f4cf71',
+        plighter: '#f8dfa0',
+        danger: '#3311BD',
       },
       fontFamily: {
         inter: 'Inter, sans-serif',

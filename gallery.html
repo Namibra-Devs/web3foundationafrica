@@ -3,9 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tailwind Output css -->
     <link rel="stylesheet" href="./src/output.css">
 
+    <!-- JavaScript -->
     <script src="./main.js" defer></script>
+
+
+     <!-- Favicon -->
+     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+     <link rel="manifest" href="/site.webmanifest">
 
     <title>Gallery | Web3 Foundation Africa</title>
   </head>
@@ -13,50 +23,52 @@
 
 
     <!-- Navbar begins -->
-    <div class="sticky top-0 z-50 py-5 shadow-md bg-white w-full font-space-grotesk border-b-2 border-b-primary">
-  <nav class="flex items-center mx-auto w-11/12 justify-between align-middle">
-      <div class="logo w-6/12">
-        <a href="index.html" class="text-primary font-bold text-2xl md:text-3xl font-space-grotesk">
-          <img src="./public/images/logo.svg" alt="Web3 Foundation Africa" class="h-10 w-auto mb-2">
+   <div class="sticky top-0 z-50 py-5 shadow-md bg-white w-full font-space-grotesk border-b-2 border-b-primary">
+      <nav class="flex items-center mx-auto w-11/12 justify-between align-middle">
+          <div class="logo w-6/12">
+             <a href="index.html" class="">
+          <img src="./public/images/logo.png" alt="Web3 Foundation Africa" class="w-auto h-12">
         </a>
-      </div>
-      <div class="absolute menu hidden  mx-auto lg:flex justify-center  top-16 left-0 w-full pt-0 pb-4 bg-white lg:relative lg:top-0 lg:border-none lg:pb-0 border-b-2 border-b-primary">
-      
-      <ul class="mt-4 lg:flex justify-end flex-col lg:flex-row text-sm z-40 w-full ml-4 lg:ml-0">
-          <li class="lg:ml-1 cursor-pointer text-secondary hover:bg-secondary hover:text-white rounded-sm w-60 md:w-auto mt-2 md:mt-0">
-            <a href="index.html" class="px-4 py-2 block lg:inline-block font-medium text-[1rem]">Home</a>
-          </li>
-         
-          <li class="lg:ml-1 cursor-pointer text-secondary hover:bg-secondary hover:text-white rounded-sm w-60 md:w-auto mt-2 md:mt-0">
-            <a href="services.html" class="px-4 py-2 block lg:inline-block font-medium text-[1rem]">Services</a>
-          </li>
+          </div>
+          <div class="absolute menu hidden  mx-auto lg:flex justify-center  top-16 left-0 w-full pt-0 pb-4 bg-white lg:relative lg:top-0 lg:border-none lg:pb-0 border-b-2 border-b-primary">
+          
+          <ul class="mt-4 lg:flex justify-end flex-col lg:flex-row text-sm z-40 w-full ml-4 lg:ml-0">
+              <li class="lg:ml-1 cursor-pointer text-secondary hover:bg-secondary hover:text-white rounded-sm w-60 md:w-auto mt-2 md:mt-0">
+                <a href="index.html" class="px-4 py-2 block lg:inline-block font-medium text-[1rem]">Home</a>
+              </li>
+             
+              <li class="lg:ml-1 lg:mr-0 cursor-pointer text-secondary hover:bg-secondary hover:text-white rounded-sm w-60 md:w-auto mt-2 md:mt-0">
+                <a href="about.html" class="px-4 py-2 block lg:inline-block font-medium text-[1rem]">About Us</a>
+              </li>
+              
+              <li class="lg:ml-1 cursor-pointer text-secondary hover:bg-secondary hover:text-white rounded-sm w-60 md:w-auto mt-2 md:mt-0">
+                <a href="services.html" class="px-4 py-2 block lg:inline-block font-medium text-[1rem]">Services</a>
+              </li>
+    
+              <li class="lg:ml-1 cursor-pointer text-secondary hover:bg-secondary hover:text-white rounded-sm w-60 md:w-auto mt-2 md:mt-0">
+                <a href="programmes.html" class="px-4 py-2 block lg:inline-block font-medium text-[1rem]">Programmes</a>
+              </li>
+              <li class="lg:ml-1 lg:mr-0 cursor-pointer text-secondary hover:bg-secondary hover:text-white rounded-sm w-60 md:w-auto mt-2 md:mt-0">
+                <a href="gallery.html" class="px-4 py-2 block lg:inline-block font-medium text-[1rem]">Gallery</a>
+              </li>
 
-          <li class="lg:ml-1 cursor-pointer text-secondary hover:bg-secondary hover:text-white rounded-sm w-60 md:w-auto mt-2 md:mt-0">
-            <a href="programmes.html" class="px-4 py-2 block lg:inline-block font-medium text-[1rem]">Programmes</a>
-          </li>
-          <li class="lg:ml-1 lg:mr-0 cursor-pointer text-secondary hover:bg-secondary hover:text-white rounded-sm w-60 md:w-auto mt-2 md:mt-0">
-            <a href="gallery.html" class="px-4 py-2 block lg:inline-block font-medium text-[1rem]">Gallery</a>
-          </li>
-          <li class="lg:ml-1 lg:mr-0 cursor-pointer text-secondary hover:bg-secondary hover:text-white rounded-sm w-60 md:w-auto mt-2 md:mt-0">
-            <a href="about.html" class="px-4 py-2 block lg:inline-block font-medium text-[1rem]">About Us</a>
-          </li>
-          <li class="lg:ml-1 cursor-pointer text-slate-100 bg-secondary hover:text-secondary hover:bg-white hover:outline hover:outline-2 hover:outline-secondary rounded-sm w-60 md:w-auto mt-2 md:mt-0">
-            <a href="contact.html" class="px-4 py-2 block lg:inline-block font-medium text-[1rem]">Contact Us</a>
-          </li>
-        </ul>
+              <li class="lg:ml-1 cursor-pointer text-slate-100 bg-secondary hover:text-secondary hover:bg-white hover:outline hover:outline-2 hover:outline-secondary rounded-sm w-60 md:w-auto mt-2 md:mt-0">
+                <a href="contact.html" class="px-4 py-2 block lg:inline-block font-medium text-[1rem]">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="z-40 relative">
+            <button title="toggle-menu" type="button"
+              class="text-light bars outline-none border-none cursor-pointer lg:hidden bg-secondary flex items-center px-2 py-1 z-50 rounded">
+               
+              <svg class="fill-current w-6 h-6" aria-hidden="true" fill="none" stroke="white" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>toggle Menu</title>
+                <path class="open transition-all ease-out duration-300" d="M3.75 9h16.5m-16.5 6.75h16.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path class="hidden close transition-all ease-out duration-300" d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+            </button>
+          </div>
+        </nav>
       </div>
-      <div class="z-40 relative">
-        <button title="toggle-menu" type="button"
-          class="text-light bars outline-none border-none cursor-pointer lg:hidden bg-secondary flex items-center px-2 py-1 z-50 rounded">
-           
-          <svg class="fill-current w-6 h-6" aria-hidden="true" fill="none" stroke="white" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>toggle Menu</title>
-            <path class="open transition-all ease-out duration-300" d="M3.75 9h16.5m-16.5 6.75h16.5" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path class="hidden close transition-all ease-out duration-300" d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-        </button>
-      </div>
-    </nav>
-  </div>
   <!-- Navbar ends -->
 
   <!-- Main page -->
@@ -140,7 +152,7 @@
             <div class="container mx-auto px-4 py-16 w-11/12">
               <div class="flex flex-col md:flex-row justify-between border-b-2 border-gray-700 pb-4 space-y-5 md:space-y-0">
                 <div class="flex flex-col items-start">
-                  <img src="./public/images/logo.svg" alt="Web3 Foundation Africa" class="h-14 w-auto mb-2">
+                  <img src="./public/images/logo.png" alt="Web3 Foundation Africa" class="h-14 w-auto mb-2">
                   <p class="text-sm w-64">Web3 Foundation Africa is a non-profit organization dedicated to promoting Web3 technology in Africa.</p>
                 </div>
                 <div class="mt-10 md:mt-0">
