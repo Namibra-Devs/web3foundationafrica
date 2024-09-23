@@ -13,7 +13,7 @@ export default {
         'other-light': ' #b0a2f6',
         plight: '#f4cf71',
         plighter: '#f8dfa0',
-        danger: '#3311BD',
+        // danger: '#3311BD',
       },
       fontFamily: {
         inter: 'Inter, sans-serif',
